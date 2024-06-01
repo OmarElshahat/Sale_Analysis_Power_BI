@@ -36,6 +36,19 @@ Importing your data into Power BI and creating your data model. Once your data i
 ![](Images/3.png)
 ![](Images/2.png)
 
+### Step 4: Investigating Salesperson Ranking
+
+We ranked salesperson by revenue to find out top 3 salesperson.
+  * ```SP Rank 1 = IF(HASONEVALUE(dsalesperson[Salesperson]),RANKX(ALL(dsalesperson),[Revenue]),BLANK())```
+  * Creating button to navigate throught pages.
+![](Images/1.png)
+
+
+# Final Dashboard Layout
+![](Images/0.png)
+![](Images/1.png)
+
+
 
 
 
